@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TheOneBurguer</title>
+    <link rel="stylesheet" href="style.Css">
+    <style>
+        p {
+  border: 2px solid rgb(26, 29, 51);
+  padding: 40px;
+
+}
+    </style>
+</head>
+<body>
+<h1 style="background-color:wheat;">The Chosen Burguer</h1>
+<p style="font-size: 30px;">Mateus 6:11- "Dá‑nos hoje o pão nosso de cada dia."</p>
+<h3 >Os hamburguers mais abençoados da região!!</h3>
+<body>
+    <nav class="navbar">
+        <span class="toggle-button" onclick="toggleMenu()"></span>
+        <ul class="menu" id="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Serviços</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+    </nav>
+
+
+
+<div class="slideshow-container">
+    <div class="slide fade">
+        <img src="https://uploads.metropoles.com/wp-content/uploads/2022/05/03124339/hamburguer-8.jpg" style="width:100%">
+    </div>
+    <div class="slide fade">
+        <img src="https://static.itdg.com.br/images/1200-630/25eccc57e89354df6b2df7d9060aca4e/355695-original.jpg" style="width:100%">
+    </div>
+    <div class="slide fade">
+        <img src="https://i.pinimg.com/736x/ae/ba/93/aeba93811c50a8532a382caa2e6be1d9.jpg" style="width:100%">
+    </div>
+</div>
+
+<h2>Conheça nossos lanches:</h2>
+<button onclick="openModal()">Veja aqui as promoções de cada dia!</button>
+
+<div id="myModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <p>Nas segundas: Nathaneal e Judas Burguer com 10% de desconto</p>
+        <p>Nas Terças: Os irmãos do Trovão (John e Big James Burguers)com 10% de desconto</p>
+        <p>Nas quartas: Little James e Thaddeus Burguers com 10% de desconto</p>
+        <p>Nas quintas: Matthew e Zee Burguers com 10% de desconto</p>
+        <p>Nas sextas: Simon e Andrew Burguers com 10% de desconto</p>
+        <p>Nos sábados: Thomas e Phillip Burguers com 10% de desconto</p>
+        <p>Nos Domingos: Jesus e Creepy John Burguers com 15% de desconto</p>
+    </div>
+</div>
+
+
+
+<p style="font-size: 25px;">Jesus Burguer:
+    R$23
+    <a href="Pedidos.html"><img src="https://www.sabornamesa.com.br/media/k2/items/cache/b9ad772005653afce4d4bd46c2efe842_XL.jpg" width="350" height="250
+    "></a>
+</p>
+<p style="font-size: 25px;">Little James Burguer:
+    R$19
+    <a href="Pedidos.html"><img src="https://img.freepik.com/fotos-premium/hamburguer-artesanal-em-uma-mesa-de-madeira_337384-3224.jpg" width="350" height="250
+    "></a>
+</p>
+<p style="font-size: 25px;">Big James Burguer:
+    R$27
+    <a href="Pedidos.html"><img src="https://storage.alboom.ninja/sites/4709/albuns/707991/ilcao.jpg?t=1599741104" width="350" height="250
+    "></a>
+</p>  
+<p style="font-size: 25px;">Matthew Burguer:
+    R$21
+    <a href="Pedidos.html"><img src="https://s2-casavogue.glbimg.com/GRF9KCq-1hiz5uSs-xX9Go_KqIc=/0x0:2048x1365/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_d72fd4bf0af74c0c89d27a5a226dbbf8/internal_photos/bs/2022/p/X/eb4KQdToys327cGqnRGg/receita-ceboloni-bacon.jpg" width="350" height="250
+    "></a>
+</p>
+<p style="font-size: 25px;">Simon Burguer:
+    R$25
+    <a href="Pedidos.html"><img src="https://img.freepik.com/fotos-premium/burger-costeleta-dupla-queijo-cheddar-duplo-bacon-cebola-frita-picles-molho-e-pao-artesanal_524291-99.jpg" width="350" height="250
+    "></a>
+</p> 
+<p style="font-size: 25px;">Andrew Burguer:
+    R$22
+    <a href="Pedidos.html"><img src="https://i.pinimg.com/736x/97/97/e8/9797e8130b7ec2ad73c649bc3b394578.jpg" width="400" height="250
+    "></a>
+</p> 
+<p style="font-size: 25px;">Phillip Burguer:
+    R$18
+    <a href="Pedidos.html"><img src="https://cms-cdn.saipos.com/assets/2022/10/13/Hamburguer-artesanal-SAIPOS-sistema-para-restaurante-1_uid_6348566ca3313.jpg" width="350" height="250
+    "></a>
+</p> 
+<p style="font-size: 25px;">Thomas Burguer:
+    R$21
+    <a href="Pedidos.html"><img src="https://www.soqueriaterum.com.br/wp-content/uploads/2021/06/ponto-da-carne.jpeg" width="400" height="250
+    "></a>
+</p>
+<p style="font-size: 25px;">Nathaneal Burguer:
+    R$24
+    <a href="Pedidos.html"><img src="https://receitasdepesos.com.br/wp-content/uploads/2023/07/shutterstock_2149593767.jpg" width="350" height="250
+    "></a>
+</p>
+<p style="font-size: 25px;">Zee Burguer:
+    R$24
+    <a href="Pedidos.html"><img src="https://gruposulnews.com.br/wp-content/uploads/2022/01/pexels-jonathan-borba-2983104-compressed.jpg" width="350" height="250
+    "></a>
+</p>
+<p style="font-size: 25px;">Thaddeus Burguer:
+    R$17
+    <a href="Pedidos.html"><img src="https://i.pinimg.com/736x/7d/55/ba/7d55ba09657e63902cc7e5afcf9a1e7a.jpg" width="350" height="250
+    "></a>
+</p>
+<p style="font-size: 25px;">John Burguer:
+    R$23
+    <a href="Pedidos.html"><img src="https://raoburger.com.br/wp-content/uploads/2021/01/NOVOS-BURGERS_1-1.jpg" width="290" height="270
+    "></a>
+</p>
+<p style="font-size: 25px;">Judas Burguer:
+    R$22
+    <a href="Pedidos.html"><img src="https://www.maiorviagem.net/wp-content/uploads/2022/05/Lala-Rock-Doma-House-Cre%CC%81dito-Lipe-Borges-2-1-1-1014x598.png" width="350" height="250
+    "></a>
+</p>
+<p style="font-size: 25px;">BONÛS: Creepy John Burguer
+    R$25
+    <a href="Pedidos.html"><img src="https://img.freepik.com/fotos-premium/saboroso-hamburguer-artesanal-com-pao-preto-no-fundo-preto_307993-1181.jpg" width="350" height="250
+    "></a>
+</p>
+<script src="js/script.js"></script>
+
+
+
+
+
+
+
+    
+    <script src="slideshow.js"></script>
+</body>
+</html>
